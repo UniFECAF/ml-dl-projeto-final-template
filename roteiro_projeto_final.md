@@ -95,7 +95,7 @@ Cada grupo deverá trabalhar colaborativamente neste repositório, documentando 
 
 ---
 
-### 📍 **Aulas 05 e 12/10 – Deploy**
+### 📍 **Aulas 05 e 12/11 – Deploy**
 **Tema:** Conclusão, análise crítica e apresentação
 
 📋 **Tarefas:**
