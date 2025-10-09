@@ -3,7 +3,7 @@ Preencha este arquivo seguindo o roteiro abaixo. Use linguagem simples e objetiv
 
 1) Identificação do Projeto
 Título do projeto: Mecânica 
-Turma/Disciplina: MLDL — 2025.2
+Turma/Disciplina: GTI.3S-2025
 Professor: Rodrigo Moreira
 Grupo (até 5): Nome completo + e-mail/usuário GitHub
 Integrante 1 — Kawã de Oliveira Pereira RA:116471
@@ -11,9 +11,11 @@ Integrante 2 — Kaique Gonçalves RA:80732
 Integrante 3 — Nathan de Sousa RA:106774 
 Integrante 4 — Marvos Douglas Queiroz Freires RA:15363 
 Integrante 5 — Alan Gomes Araújo RA:27545
+
 2) A IA mecânica foi desenvolvida para auxiliar em toda a manutenção de veículos e máquinas,
 identificando falhas com precisão por meio de sensores e aprendizado de máquina. Ela automatiza diagnósticos,
 sugere soluções e pode executar reparos simples com braços robóticos. Isso reduz custos, aumenta a eficiência e minimiza erros humanos.
+
 3) Definição do Problema
 Tema: Manutenção em Geral 
 Problema (pergunta mensurável): Queremos prever uma forma de ajudar a todos, em qualquer manutenção a ser feita sem gastar e ainda ajudando da melhor forma
