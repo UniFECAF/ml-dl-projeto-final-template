@@ -4,14 +4,14 @@
 > **Não envie dados grandes para o repositório.** Coloque links para o dataset e mantenha apenas amostras pequenas se necessário.
 
 ## 1) Identificação do Projeto
-- **Título do projeto:** _Ex.: Detecção de Pneumonia em Raios-X_
-- **Turma/Disciplina:** _Ex.: MLDL — 2025.2_
+- **Título do projeto:** Neto-IA
+- **Turma/Disciplina:** GTI.4NA
 - **Professor:** Rodrigo Moreira
 - **Grupo (até 5):** Nome completo + e-mail/usuário GitHub  
-  - Integrante 1 — @usuario1
-  - Integrante 2 — @usuario2
-  - Integrante 3 — @usuario3
-  - Integrante 4 — @usuario4
+  - Integrante 1 — DIEGO DOS ANJOS GOMES / Diego-Anjos
+  - Integrante 2 — GUSTAVO RIBEIRO SANTOS / OvatsGGold
+  - Integrante 3 — VICTORIA SANTANA LISBOA / VicSLisboa
+  - Integrante 4 — IAN MEIRELLES SILVA / IanSMeirelles
   - Integrante 5 — @usuario5
 
 ## 2) Pitch (2–3 linhas)
