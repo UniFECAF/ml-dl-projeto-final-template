@@ -10,7 +10,7 @@
 - **Turma/Disciplina:** _Ex.: MLDL — 2025.2_
 - **Professor:** Rodrigo Moreira
 - **Grupo (até 5):** Nome completo + e-mail/usuário GitHub  
-  - Integrante 1 — @usuario1
+  - Integrante 1 — @Ryan
   - Integrante 2 — @usuario2
   - Integrante 3 — @usuario3
   - Integrante 4 — @usuario4
