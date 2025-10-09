@@ -10,31 +10,20 @@
 - **Turma/Disciplina:** _Ex.: MLDL — 2025.2_
 - **Professor:** Rodrigo Moreira
 - **Grupo (até 5):** Nome completo + e-mail/usuário GitHub  
-  - Integrante 1 — Ryan Ribeiro/ryan.ribeiro.105128@a.fecaf.com.br/RybeiroL
-  - Integrante 2 — Ana Laura Camargo/
-  - Integrante 3 — Vinicius Brito/
-  - Integrante 4 — Vinicius Souza/
+  - Integrante 1 — @usuario1
+  - Integrante 2 — @usuario2
+  - Integrante 3 — @usuario3
+  - Integrante 4 — @usuario4
   - Integrante 5 — @usuario5
 
 ## 2) Pitch (2–3 linhas)
 > Em poucas frases, diga o que o projeto faz e por que importa.
-R: **Chatbot turístico inteligente**, capaz de auxiliar usuários no **planejamento completo de viagens e passeios** de forma prática, rápida e personalizada.
-O projeto visa reduzir o tempo gasto em pesquisas,**aumentar a precisão das decisões do usuário**, ajudar a evitar gastos desnecessários e **democratiza o acesso à informação turística de qualidade**.
-
-
 ## 3) Definição do Problema
 - **Tema:** _Saúde, Finanças, PLN, Visão Computacional, Séries Temporais, etc._
-R> Turismo
 - **Problema (pergunta mensurável):** _O que queremos prever/classificar?_
-R: O projeto busca resolver a dificuldade que muitas pessoas têm em planejar viagens de forma prática e personalizada, reunindo informações sobre destinos, preços, clima e opções em um só lugar. Utilizando Machine Learning, o chatbot prevê as preferências do usuário e classifica suas intenções, oferecendo recomendações de destinos e roteiros adequados ao seu perfil e orçamento.
 - **Objetivo do modelo:** _Ex.: classificar imagens em saudável vs. pneumonia_
-R: Auxiliar/Planejar viagens, passeios, visitas, com base na preferência do cliente.
 - **Variáveis (entrada/saída):** _Ex.: pixels (X), rótulo (y)_
-R: -
 - **Relevância/Impacto:** _Por que é útil? Quem se beneficia?_
-R:O projeto visa **transformar a experiência de planejamento de viagens**, tornando-a mais acessível, prática e personalizada.
-Além de reduzir o tempo gasto em pesquisas, o chatbot **aumenta a precisão das decisões do usuário**, ajuda a evitar gastos desnecessários e **democratiza o acesso à informação turística de qualidade**, com isso, beneficiando o cliente.
-Em um contexto onde a automação e a IA são cada vez mais presentes, o projeto demonstra como **Machine Learning pode ser aplicado em soluções reais que impactam positivamente o dia a dia das pessoas.**
 
 ## 4) Dataset
 - **Fonte e link:** _Kaggle/UCI/Hugging Face/Google Dataset Search_
