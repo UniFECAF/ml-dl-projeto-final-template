@@ -15,14 +15,14 @@
   - Integrante 5 — @usuario5
 
 ## 2) Pitch (2–3 linhas)
-> Em poucas frases, diga o que o projeto faz e por que importa.
+> O NetoIA foi criado para ajudar você a usar a tecnologia de um jeito fácil e simples. Pense em nós como um neto paciente, pronto para ensinar e tirar todas as suas dúvidas. Aqui, você vai encontrar guias passo a passo para as tarefas mais comuns do dia a dia digital. 
 
 ## 3) Definição do Problema
-- **Tema:** _Saúde, Finanças, PLN, Visão Computacional, Séries Temporais, etc._
-- **Problema (pergunta mensurável):** _O que queremos prever/classificar?_
-- **Objetivo do modelo:** _Ex.: classificar imagens em saudável vs. pneumonia_
-- **Variáveis (entrada/saída):** _Ex.: pixels (X), rótulo (y)_
-- **Relevância/Impacto:** _Por que é útil? Quem se beneficia?_
+- **Tema:** Pessoas com dificuldades para usar tecnologia
+- **Problema (pergunta mensurável):** Como podemos facilitar a vida das pessoas com a tecnologia?
+- **Objetivo do modelo:** Tirar dúvidas do usuário sobre tecnologia
+- **Variáveis (entrada/saída):** Texto / Resposta:Voz:Imagem
+- **Relevância/Impacto:** Pessoas com díficuldades de usar um computador, softwares e app tornando o dia-a-dia mais fácil.
 
 ## 4) Dataset
 - **Fonte e link:** _Kaggle/UCI/Hugging Face/Google Dataset Search_
