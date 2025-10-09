@@ -22,7 +22,8 @@
 ## 3) Definição do Problema
 - **Tema:** Saúde
 - **Problema (pergunta mensurável):** _O que queremos prever/classificar?_
- R:
+R:
+
 - Estados emocionais predominantes (ansiedade, medo, tristeza etc.);
 - Respostas ao uso das essências (melhora, estabilidade, resistência);
 - Perfis emocionais dos participantes;
@@ -31,7 +32,7 @@
 - **Objetivo do modelo:**:
 R: Desenvolver um chatbot inteligente que utilize técnicas de aprendizado de máquina e análise de sentimentos para oferecer informações personalizadas sobre floralterapia. Com base nas informações fornecidas pelo usuário, o chatbot poderá sugerir essências florais de Bach adequadas ao estado emocional identificado, sempre ressaltando a importância de consultar um profissional qualificado para a indicação e acompanhamento adequados. Além disso, o sistema encaminhará a conversa para um atendente humano quando necessário, garantindo um suporte mais completo e empático.
   
-- **Variáveis (entrada/saída):**
+- **Variáveis (entrada/saída):** _Ex.: pixels (X), rótulo (y)_
 R:
 Variáveis de entrada (input):
 - Texto das mensagens do usuário;
