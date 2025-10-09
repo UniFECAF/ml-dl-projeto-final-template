@@ -1,1 +1,76 @@
+🚀 Projeto Final — Machine Learning & Deep Learning (Aula 01)
+Preencha este arquivo seguindo o roteiro abaixo. Use linguagem simples e objetiva. Não envie dados grandes para o repositório. Coloque links para o conjunto de dados e mantenha apenas pequenas amostras se necessário.
 
+1) Identificação do Projeto
+Título do projeto: Neto-IA
+Turma/Disciplina: GTI.4NA
+Professor: Rodrigo Moreira
+Grupo (até 5): Nome completo + e-mail/usuário GitHub
+Integrante 1 — VITOR EUFLOSINO - Ra.106539
+Integrante 2 — ARTHUR MACIEL - Ra. 90875
+Integrante 3 — CAUÃ OLIVEIRA - Ra. 105384
+Integrante 4 — GIULIA ANDRADE - Ra. 101671
+
+2) Pitch (2–3 linhas)
+O consumo de dados móveis tem se tornado uma das principais preocupações tanto para usuários quanto para empresas e prestadoras de serviços de telecomunicações. Com a popularização dos smartphones e o avanço das tecnologias de conectividade, a utilização de dados móveis para acessar a internet, redes sociais, serviços de streaming e aplicativos de diversas naturezas cresceu exponencialmente. Este fenômeno traz consigo desafios relacionados à gestão de recursos, à oferta de planos mais adequados ao perfil de consumo e à garantia de qualidade no serviço prestado.
+
+3) Definição do Problema
+Tema: Dados 5g
+Problema (pergunta mensurável): Como podemos facilitar os acessos a planos de internet.
+Objetivo do modelo: Gerar indicação de planos de internet.
+Variáveis ​​(entrada/saída): Texto 
+Relevância/Impacto: Indicação segura
+
+4) Conjunto de dados
+Fonte e link: Kaggle/UCI/Hugging Face/Google Dataset Search
+Descrição resumida: #amostras, #features, tipo (tabular/imagem/texto/séries)
+Tamanho aproximado: MB/GB
+Licença: Ex.: CC BY 4.0
+Alvo (target): coluna/arquivo de rótulos
+Balanceamento: Aulas balanceadas? Se não, como lidar? (SMOTE, pesos, etc.)
+Como será carregado: Link direto/Download local/Drive/HF Datasets
+5) Estratégia Inicial
+Baseline ML: Ex.: Regressão Logística/Decision Tree com recursos simples
+Modelo ML principal: Ex.: Random Forest, SVM, XGBoost (justifique)
+Deep Learning: Ex.: MLP/CNN/RNN conforme tipo de dado (justifique)
+Métricas principais: Precisão, F1, AUC-ROC, MAE/MSE, etc., com justificativa
+Critérios de sucesso (meta): Ex.: F1 ≥ 0,85 no conjunto de teste
+6) Riscos e Considerações Éticas
+Viés nos dados: Aulas desequilibradas? Representatividade?
+Privacidade/LGPD: contém dados pessoais? Quais cuidados?
+Limitações conhecidas: Ex.: tamanho do conjunto de dados, ruído, generalização
+7) Cronograma (alto nível)
+Aula 01: Problema + Conjunto de Dados ✅
+Aula 02: EDA + Preparação de dados
+Aula 03: Baseline + ML tradicional
+Aula 04: DL (rede neural) + comparação
+Aula 05: Avaliação final + Deploy + Apresentação
+8) Estrutura do Repositório
+.
+├── .github/
+│   ├── ISSUE_TEMPLATE/
+│   │   └── aula01.yml
+│   └── PULL_REQUEST_TEMPLATE.md
+├── data/
+│   ├── raw/            # dados brutos (não versionar arquivos grandes)
+│   └── processed/      # dados processados (não versionar arquivos grandes)
+├── docs/
+│   ├── checklist_aula01.md
+│   └── relatorio_template.md  # usaremos na entrega final
+├── notebooks/          # notebooks Colab/Jupyter
+├── src/                # código fonte (funções/utilitários)
+├── .gitignore
+├── LICENSE
+└── README.md           # este arquivo
+9) Como rodar (Local ou Colab)
+Colab: Abra notebooks/e crie um caderno. Use o link do dataset para carregar os dados.
+Local (opcional):
+python -m venv .venv
+source .venv/bin/activate  # (Windows: .venv\Scripts\activate)
+pip install -r requirements.txt
+10) Estado
+Tema definido
+Problema e objetivo escritos
+Conjunto de dados escolhido e validado
+Justificativa concluída
+Edição “Aula 01 — Kickoff” aberta e preenchida
