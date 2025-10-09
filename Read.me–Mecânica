@@ -15,11 +15,11 @@ Integrante 5 — Alan Gomes Araújo RA:27545
 Em poucas frases, diga o que o projeto faz e por que importa.
 
 3) Definição do Problema
-Tema: Saúde, Finanças, PLN, Visão Computacional, Séries Temporais, etc.
-Problema (pergunta mensurável): O que queremos prever/classificar?
-Objetivo do modelo: Ex.: classificar imagens em saudável vs. pneumonia
-Variáveis (entrada/saída): Ex.: pixels (X), rótulo (y)
-Relevância/Impacto: Por que é útil? Quem se beneficia?
+Tema: Manutenção em Geral 
+Problema (pergunta mensurável): Queremos prever uma forma de ajudar a todos, em qualquer manutenção a ser feita sem gastar e ainda ajudando da melhor forma
+Objetivo do modelo:Auxílio em manutenção em geral 
+Variáveis (entrada/saída): Texto
+Relevância/Impacto: Por que é útil? Por que é uma IA criada para auxiliar manutenções em geral
 4) Dataset
 Fonte e link: Kaggle/UCI/Hugging Face/Google Dataset Search
 Descrição resumida: #amostras, #features, tipo (tabular/imagem/texto/séries)
