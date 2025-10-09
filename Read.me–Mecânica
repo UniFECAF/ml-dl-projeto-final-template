@@ -17,11 +17,14 @@ identificando falhas com precisão por meio de sensores e aprendizado de máquin
 sugere soluções e pode executar reparos simples com braços robóticos. Isso reduz custos, aumenta a eficiência e minimiza erros humanos.
 
 3) Definição do Problema
-Tema: Manutenção em Geral 
+Tema: Manutenção de Veículos e Máquinas 
 Problema (pergunta mensurável): Queremos prever uma forma de ajudar a todos, em qualquer manutenção a ser feita sem gastar e ainda ajudando da melhor forma
-Objetivo do modelo:Auxílio em manutenção em geral 
+Objetivo do modelo:Auxílio em Manutenção de Veículos e Máquinas 
 Variáveis (entrada/saída): Texto
-Relevância/Impacto: Por que é útil? Por que é uma IA criada para auxiliar manutenções em geral
+Relevância/Impacto: Por que é útil? A crescente complexidade dos sistemas mecânicos e eletrônicos em máquinas industriais e veículos modernos exige um nível elevado de conhecimento técnico para a realização de manutenções corretivas e preventivas.
+Ao mesmo tempo, há um déficit de profissionais altamente qualificados no setor de manutenção, o que impacta diretamente na produtividade, na segurança e nos custos operacionais.
+Nesse contexto, o uso da Inteligência Artificial como ferramenta de suporte técnico torna-se altamente relevante, pois pode oferecer diagnósticos precisos, sugestões de reparo, acompanhamento de manutenções preditivas e otimização do tempo de resposta,
+promovendo maior eficiência operacional e redução de falhas críticas.
 
 4) Dataset
 Fonte e link: Kaggle/UCI/Hugging Face/Google Dataset Search
