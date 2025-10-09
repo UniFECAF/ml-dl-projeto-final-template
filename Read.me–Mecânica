@@ -20,6 +20,7 @@ Problema (pergunta mensurável): Queremos prever uma forma de ajudar a todos, em
 Objetivo do modelo:Auxílio em manutenção em geral 
 Variáveis (entrada/saída): Texto
 Relevância/Impacto: Por que é útil? Por que é uma IA criada para auxiliar manutenções em geral
+
 4) Dataset
 Fonte e link: Kaggle/UCI/Hugging Face/Google Dataset Search
 Descrição resumida: #amostras, #features, tipo (tabular/imagem/texto/séries)
@@ -28,22 +29,26 @@ Licença: Ex.: CC BY 4.0
 Alvo (target): coluna/arquivo de rótulos
 Balanceamento: Classes balanceadas? Se não, como lidar? (SMOTE, pesos, etc.)
 Como será carregado: Link direto/Download local/Drive/HF Datasets
+
 5) Estratégia Inicial
 Baseline ML: Ex.: Regressão Logística/Decision Tree com features simples
 Modelo ML principal: Ex.: Random Forest, SVM, XGBoost (justifique)
 Deep Learning: Ex.: MLP/CNN/RNN conforme tipo de dado (justifique)
 Métricas principais: Accuracy, F1, AUC-ROC, MAE/MSE, etc., com justificativa
 Critérios de sucesso (meta): Ex.: F1 ≥ 0.85 no conjunto de teste
+
 6) Riscos e Considerações Éticas
 Viés nos dados: Classes desbalanceadas? Representatividade?
 Privacidade/LGPD: Contém dados pessoais? Quais cuidados?
 Limitações conhecidas: Ex.: tamanho do dataset, ruído, generalização
+
 7) Cronograma (alto nível)
 Aula 01: Problema + Dataset ✅
 Aula 02: EDA + Preparação de dados
 Aula 03: Baseline + ML tradicional
 Aula 04: DL (rede neural) + comparação
 Aula 05: Avaliação final + Deploy + Apresentação
+
 8) Estrutura do Repositório
 .
 ├── .github/
@@ -61,18 +66,21 @@ Aula 05: Avaliação final + Deploy + Apresentação
 ├── .gitignore
 ├── LICENSE
 └── README.md           # este arquivo
+
 9) Como rodar (Local ou Colab)
 Colab: Abra notebooks/ e crie um notebook. Use o link do dataset para carregar os dados.
 Local (opcional):
 python -m venv .venv
 source .venv/bin/activate  # (Windows: .venv\Scripts\activate)
 pip install -r requirements.txt
+
 10) Status
  Tema definido
  Problema e objetivo escritos
  Dataset escolhido e validado
  Justificativa concluída
  Issue “Aula 01 — Kickoff” aberta e preenchida
+
 📌 Convenções
 Nome do repositório: mldl-2025-grupoNN-tema-curto (ex.: mldl-2025-grupo03-pneumonia)
 Não subir arquivos > 50 MB. Para dados grandes, use link externo.
