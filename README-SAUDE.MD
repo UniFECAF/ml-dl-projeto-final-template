@@ -21,30 +21,30 @@ Objetivo do modelo: Otimizar tempo
 Variáveis (entrada/saída): Ex.: pixels (X), rótulo (y)
 Relevância/Impacto: Agiliza a Triagem, e quem se beneficia a População.
 4) Dataset* ( A DEFINIR )
-Fonte e link: Kaggle/UCI/Hugging Face/Google Dataset Search 
+Fonte e link: Kaggle/UCI/Hugging Face/Google Dataset Search
 Descrição resumida: #amostras, #features, tipo (tabular/imagem/texto/séries)
 Tamanho aproximado: MB/GB
 Licença: Ex.: CC BY 4.0
 Alvo (target): coluna/arquivo de rótulos
 Balanceamento: Classes balanceadas? Se não, como lidar? (SMOTE, pesos, etc.)
 Como será carregado: Link direto/Download local/Drive/HF Datasets
-5) Estratégia Inicial
+5) Estratégia Inicial ( A DEFINIR )
 Baseline ML: Ex.: Regressão Logística/Decision Tree com features simples
 Modelo ML principal: Ex.: Random Forest, SVM, XGBoost (justifique)
 Deep Learning: Ex.: MLP/CNN/RNN conforme tipo de dado (justifique)
 Métricas principais: Accuracy, F1, AUC-ROC, MAE/MSE, etc., com justificativa
 Critérios de sucesso (meta): Ex.: F1 ≥ 0.85 no conjunto de teste
-6) Riscos e Considerações Éticas
+6) Riscos e Considerações Éticas ( A DEFINIR )
 Viés nos dados: Classes desbalanceadas? Representatividade?
 Privacidade/LGPD: Contém dados pessoais? Quais cuidados?
 Limitações conhecidas: Ex.: tamanho do dataset, ruído, generalização
-7) Cronograma (alto nível)
+7) Cronograma (alto nível) 
 Aula 01: Problema + Dataset ✅
 Aula 02: EDA + Preparação de dados
 Aula 03: Baseline + ML tradicional
 Aula 04: DL (rede neural) + comparação
 Aula 05: Avaliação final + Deploy + Apresentação
-8) Estrutura do Repositório
+8) Estrutura do Repositório ( A DEFINIR )
 .
 ├── .github/
 │   ├── ISSUE_TEMPLATE/
