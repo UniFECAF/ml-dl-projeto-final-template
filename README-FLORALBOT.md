@@ -17,12 +17,12 @@
 
 ## 2) Pitch (2–3 linhas)
 > Em poucas frases, diga o que o projeto faz e por que importa.
-> R: A floralterapia utiliza essências florais para equilibrar emoções e promover bem-estar. Ela atua de forma sutil, ajudando a lidar com sentimentos como medo, ansiedade, insegurança, etc. É importante porque favorece o autoconhecimento e o equilíbrio emocional, contribuindo para uma vida mais harmoniosa e saudável.
+> - R: A floralterapia utiliza essências florais para equilibrar emoções e promover bem-estar. Ela atua de forma sutil, ajudando a lidar com sentimentos como medo, ansiedade, insegurança, etc. É importante porque favorece o autoconhecimento e o equilíbrio emocional, contribuindo para uma vida mais harmoniosa e saudável.
 
 ## 3) Definição do Problema
 - **Tema:** Saúde
 - **Problema (pergunta mensurável):** _O que queremos prever/classificar?_
-R:
+- R:
 
 - Estados emocionais predominantes (ansiedade, medo, tristeza etc.);
 - Respostas ao uso das essências (melhora, estabilidade, resistência);
@@ -30,10 +30,10 @@ R:
 - Padrões de evolução ao longo do tratamento (tempo de resposta, intensidade dos efeitos).
 
 - **Objetivo do modelo:**:
-R: Desenvolver um chatbot inteligente que utilize técnicas de aprendizado de máquina e análise de sentimentos para oferecer informações personalizadas sobre floralterapia. Com base nas informações fornecidas pelo usuário, o chatbot poderá sugerir essências florais de Bach adequadas ao estado emocional identificado, sempre ressaltando a importância de consultar um profissional qualificado para a indicação e acompanhamento adequados. Além disso, o sistema encaminhará a conversa para um atendente humano quando necessário, garantindo um suporte mais completo e empático.
+- R: Desenvolver um chatbot inteligente que utilize técnicas de aprendizado de máquina e análise de sentimentos para oferecer informações personalizadas sobre floralterapia. Com base nas informações fornecidas pelo usuário, o chatbot poderá sugerir essências florais de Bach adequadas ao estado emocional identificado, sempre ressaltando a importância de consultar um profissional qualificado para a indicação e acompanhamento adequados. Além disso, o sistema encaminhará a conversa para um atendente humano quando necessário, garantindo um suporte mais completo e empático.
   
 - **Variáveis (entrada/saída):** _Ex.: pixels (X), rótulo (y)_
-R:
+- R:
 Variáveis de entrada (input):
 - Texto das mensagens do usuário;
 - Emoções detectadas (por meio de análise de sentimento);
@@ -47,13 +47,13 @@ Variáveis de saída (output):
 - Indicação para procurar um profissional ou encaminhamento para atendente humano.
   
 - **Relevância/Impacto:** _Por que é útil? Quem se beneficia?_
-R: É útil porque facilita o acesso a informações sobre floralterapia e ajuda o usuário a compreender melhor seu estado emocional, oferecendo uma experiência personalizada e acolhedora.
+- R: É útil porque facilita o acesso a informações sobre floralterapia e ajuda o usuário a compreender melhor seu estado emocional, oferecendo uma experiência personalizada e acolhedora.
 Os principais beneficiados são:
 - Usuários, que recebem orientações iniciais e sugestões de florais de forma rápida e empática;
 - Profissionais da área, que podem atender pessoas mais conscientes sobre suas emoções e necessidades;
 - Instituições ou projetos de bem-estar, que ganham uma ferramenta automatizada para apoio emocional e triagem inicial.
 
-## 4) Dataset
+## 4) Dataset: ANALISANDO
 - **Fonte e link:** _Kaggle/UCI/Hugging Face/Google Dataset Search_
 - **Descrição resumida:** _#amostras, #features, tipo (tabular/imagem/texto/séries)_
 - **Tamanho aproximado:** _MB/GB_
