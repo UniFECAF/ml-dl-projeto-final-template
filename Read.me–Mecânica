@@ -27,25 +27,161 @@ Nesse contexto, o uso da Inteligência Artificial como ferramenta de suporte té
 promovendo maior eficiência operacional e redução de falhas críticas.
 
 4) Dataset
-Fonte e link: Kaggle/UCI/Hugging Face/Google Dataset Search
-Descrição resumida: #amostras, #features, tipo (tabular/imagem/texto/séries)
-Tamanho aproximado: MB/GB
-Licença: Ex.: CC BY 4.0
-Alvo (target): coluna/arquivo de rótulos
-Balanceamento: Classes balanceadas? Se não, como lidar? (SMOTE, pesos, etc.)
-Como será carregado: Link direto/Download local/Drive/HF Datasets
+Fonte e link: UCI Machine Learning Repository — AI4I 2020 Predictive Maintenance Dataset.
+Descrição resumida: #amostras (instances): ~10.000 
+UCI Archive
++1
+
+#features: 14 colunas (com variáveis contínuas e categóricas) 
+UCI Archive
++1
+
+Tipo: Tabular / Multivariado; pode ser tratado também como séries temporais dependendo de como for organizado.
+Tamanho aproximado: 509.9 KB (arquivo CSV)
+Licença: Creative Commons Attribution 4.0 International (CC BY 4.0)
+Alvo (target):Colunas de falha (“machine failure”), e falhas específicas: TWF (tool wear failure), HDF, PWF, OSF, RNF.
+Balanceamento: As classes de falha são desbalanceadas: a grande maioria dos registros representam operações normais, e apenas uma parte relativamente pequena indica falhas.
+(Esses datasets de manutenção preditiva geralmente têm esse perfil)
+Como será carregado: Link direto via UCI (“Download CSV”) 
+Repositório UCI
++1
+
+Pode ser carregado localmente ou via bibliotecas Python: ex: pandas ler CSV, ou usando bibliotecas de datasets do UCI / ucimlrepo.
 
 5) Estratégia Inicial
-Baseline ML: Ex.: Regressão Logística/Decision Tree com features simples
-Modelo ML principal: Ex.: Random Forest, SVM, XGBoost (justifique)
-Deep Learning: Ex.: MLP/CNN/RNN conforme tipo de dado (justifique)
-Métricas principais: Accuracy, F1, AUC-ROC, MAE/MSE, etc., com justificativa
-Critérios de sucesso (meta): Ex.: F1 ≥ 0.85 no conjunto de teste
+Baseline ML:Modelo: Regressão Logística e/ou Árvore de Decisão (Decision Tree)
+
+Por que?
+
+Simples, rápida de treinar e fácil de interpretar.
+
+Ajuda a identificar rapidamente se o problema é aprendível.
+
+Boa para comparação com modelos mais complexos posteriormente.
+
+Features usadas:
+
+Variáveis básicas como: pressão, temperatura, vibração, uso acumulado, tempo desde última manutenção, etc.
+
+Sem engenharia de features inicialmente — apenas dados crus e normalizados.
+Modelo ML principal: Modelo recomendado: XGBoost ou Random Forest
+
+Justificativa:
+
+XGBoost é altamente eficaz em dados tabulares com variáveis numéricas e categóricas.
+
+Lida bem com valores ausentes, interações não lineares e desbalanceamento (via parâmetro scale_pos_weight).
+
+Tem desempenho superior em muitos benchmarks industriais.
+
+Random Forest como alternativa mais simples e robusta, útil em tuning inicial.
+
+Engenharia de features possível:
+
+Tempo até próxima falha (se disponível).
+
+Média móvel e desvio padrão (janelas temporais).
+
+Frequência de uso, variação de sensores, etc.
+Deep Learning: Dados tabulares/sequenciais (ex: MetroPT-3)
+
+Modelo sugerido: RNN ou LSTM
+
+Justificativa:
+
+Se os dados estiverem organizados em sequência por tempo (ex: sensores por minuto), uma RNN/LSTM pode aprender padrões temporais antes da falha.
+
+Útil para prever falhas iminentes ou tempo até falha (Remaining Useful Life).
+
+Alternativa mais simples: MLP (Multilayer Perceptron) para dados agregados ou não temporais.
+
+b) Dados de áudio (ex: MIMII Dataset)
+
+Modelo sugerido: CNN + LSTM (ou CNN pura com espectrogramas)
+
+Justificativa:
+
+Transformar áudio em espectrogramas e usar CNNs para extrair padrões visuais relacionados a falhas.
+
+Se for sequencial no tempo, usar CNN + LSTM para capturar variação temporal da anomalia.
+Métricas principais:Problema de classificação binária (falha vs. normal):
+
+F1-score: Principal métrica para balancear precisão e recall, especialmente com dados desbalanceados.
+
+AUC-ROC: Avalia o desempenho geral do modelo, independentemente de limiar.
+
+Recall (Sensibilidade): Crítico para não perder falhas reais (falsos negativos perigosos).
+
+Precision: Também importante, especialmente se ações de manutenção forem caras.
+
+Se o problema for regressão (ex: tempo até falha):
+
+MAE (Erro Absoluto Médio) e RMSE: Para estimativas contínuas do tempo de falha com penalização proporcional ao erro.
+Critérios de sucesso (meta):F1-score ≥ 0.85 no conjunto de teste.
+
+Garante que tanto falhas reais estão sendo detectadas quanto o número de falsos alarmes é aceitável.
+
+Recall ≥ 0.90, se segurança for uma prioridade.
+
+AUC-ROC ≥ 0.90 indica bom separador entre estados normais e com falha.
+
+Para regressão: MAE ≤ 5 horas ou similar, dependendo da frequência dos dados e criticidade do sistema.
 
 6) Riscos e Considerações Éticas
-Viés nos dados: Classes desbalanceadas? Representatividade?
-Privacidade/LGPD: Contém dados pessoais? Quais cuidados?
-Limitações conhecidas: Ex.: tamanho do dataset, ruído, generalização
+Viés nos dados: Classes desbalanceadas? A maioria dos dados representa situações normais, com poucas amostras de falha (evento raro).
+
+Isso pode fazer com que o modelo tenha tendência a prever "sem falha", ignorando sinais de alerta.
+
+Risco prático: falhas reais não detectadas → acidentes, perda financeira, danos ao equipamento.
+
+Mitigação: uso de técnicas como SMOTE, reamostragem, pesos ajustados no modelo, e priorização de recall.
+Representatividade? Dados coletados de apenas um tipo de máquina ou frota podem não generalizar para outras marcas, ambientes ou condições operacionais.
+
+Risco ético: um modelo treinado em contexto X pode falhar silenciosamente em contexto Y, criando uma falsa sensação de segurança.
+
+Mitigação: treinar com dados de fontes variadas, uso de validação cruzada por domínio, e testes em ambientes reais antes da implantação.
+Privacidade/LGPD: Contém dados pessoais?Os datasets usados (UCI, MIMII, etc.) não contêm dados pessoais identificáveis (nome, CPF, localização, etc.).
+
+Porém, em aplicações reais, é comum que sistemas de manutenção estejam integrados com sistemas de gestão de frota, condutores ou operadores → dados pessoais podem ser incluídos
+(e.g., ID do motorista, horário de uso, geolocalização).
+Quais cuidados? Garantir anonimização ou pseudonimização de qualquer dado pessoal sensível.
+
+Aplicar princípios da LGPD:Contém dados pessoais?
+
+Os datasets usados (UCI, MIMII, etc.) não contêm dados pessoais identificáveis (nome, CPF, localização, etc.).
+
+Porém, em aplicações reais, é comum que sistemas de manutenção estejam integrados com sistemas de gestão de frota, condutores ou operadores → dados pessoais podem ser incluídos (e.g., ID do motorista, horário de uso, geolocalização).
+
+Cuidados necessários:
+
+Garantir anonimização ou pseudonimização de qualquer dado pessoal sensível.
+
+Aplicar princípios da LGPD: finalidade clara, minimização de dados, segurança da informação, consentimento (se necessário).
+
+Evitar perfis de operador com base em falhas, para não gerar viés ou discriminação.
+Limitações conhecidas: Tamanho do dataset:
+
+Alguns datasets (ex: AI4I 2020) são pequenos (~10.000 amostras), o que pode levar à superajuste (overfitting) e baixa generalização.
+
+Modelos complexos como deep learning exigem mais dados para serem eficazes.
+
+Ruído e qualidade dos dados:
+
+Dados de sensores podem ter leituras com ruído, falhas de calibração, perda de sinal, etc.
+
+Isso pode afetar o desempenho do modelo e gerar diagnósticos incorretos.
+
+Generalização limitada:
+
+Modelos treinados em simulações ou ambientes laboratoriais nem sempre funcionam bem em cenários reais (ex: clima, carga variável, operadores diferentes).
+
+Risco prático: decisões erradas de manutenção, parada desnecessária ou falhas não previstas.
+
+Interpretação do modelo:
+
+Modelos complexos (ex: XGBoost, CNNs) podem ser “caixas-pretas”, dificultando a explicação da decisão.
+
+Em ambientes críticos (como manutenção de máquinas pesadas), a explicabilidade é essencial para aceitação e segurança.
 
 7) Cronograma (alto nível)
 Aula 01: Problema + Dataset ✅
