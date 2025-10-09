@@ -3,19 +3,21 @@ Título do projeto: Ex.: Detecção de Pneumonia em Raios-X
 Turma/Disciplina: Ex.: MLDL — 2025.2
 Professor: Rodrigo Moreira
 Grupo (até 5): Nome completo + e-mail/usuário GitHub
-Integrante 1 — @usuario1
-Integrante 2 — @usuario2
-Integrante 3 — @usuario3
-Integrante 4 — @usuario4
-Integrante 5 — @usuario5
+Amanda de Oliveira 1 — @usuario1
+Micaelly de Oliveira — @usuario2
+Icaro Oliveira — @usuario3
+Eduardo — @usuario4
+
 
 
 
 
 2) Pitch (2–3 linhas)
-Em poucas frases, diga o que o projeto faz e por que importa.
+Nosso sistema centraliza e gerencia digitalmente todo o histórico de saúde, vacinas e tratamentos de animais. 
+Isso garante um cuidado mais preciso e proativo, otimizando o acompanhamento veterinário e prevenindo doenças de forma eficaz.
 
 3) Definição do Problema
+
 Tema: Saúde, Finanças, PLN, Visão Computacional, Séries Temporais, etc.
 Problema (pergunta mensurável): O que queremos prever/classificar?
 Objetivo do modelo: Ex.: classificar imagens em saudável vs. pneumonia
