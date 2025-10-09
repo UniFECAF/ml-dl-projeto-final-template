@@ -1,28 +1,30 @@
+[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/d2enqy8e)
+[![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-2e0aaae1b6195c2367325f4f02e2d04e9abb55f0b24a779b69b11b9e10269abc.svg)](https://classroom.github.com/online_ide?assignment_repo_id=20978592&assignment_repo_type=AssignmentRepo)
 # 🚀 Projeto Final — Machine Learning & Deep Learning (Aula 01)
 
 > Preencha este arquivo seguindo o roteiro abaixo. Use linguagem simples e objetiva.
 > **Não envie dados grandes para o repositório.** Coloque links para o dataset e mantenha apenas amostras pequenas se necessário.
 
 ## 1) Identificação do Projeto
-- **Título do projeto:** Neto-IA
-- **Turma/Disciplina:** GTI.4NA
+- **Título do projeto:** _Ex.: Detecção de Pneumonia em Raios-X_
+- **Turma/Disciplina:** _Ex.: MLDL — 2025.2_
 - **Professor:** Rodrigo Moreira
 - **Grupo (até 5):** Nome completo + e-mail/usuário GitHub  
-  - Integrante 1 — DIEGO DOS ANJOS GOMES / Diego-Anjos
-  - Integrante 2 — GUSTAVO RIBEIRO SANTOS / OvatsGGold
-  - Integrante 3 — VICTORIA SANTANA LISBOA / VicSLisboa
-  - Integrante 4 — IAN MEIRELLES SILVA / IanSMeirelles
+  - Integrante 1 — @usuario1
+  - Integrante 2 — @usuario2
+  - Integrante 3 — @usuario3
+  - Integrante 4 — @usuario4
   - Integrante 5 — @usuario5
 
 ## 2) Pitch (2–3 linhas)
-> O NetoIA foi criado para ajudar você a usar a tecnologia de um jeito fácil e simples. Pense em nós como um neto paciente, pronto para ensinar e tirar todas as suas dúvidas. Aqui, você vai encontrar guias passo a passo para as tarefas mais comuns do dia a dia digital. 
+> Em poucas frases, diga o que o projeto faz e por que importa.
 
 ## 3) Definição do Problema
-- **Tema:** Pessoas com dificuldades para usar tecnologia
-- **Problema (pergunta mensurável):** Como podemos facilitar a vida das pessoas com a tecnologia?
-- **Objetivo do modelo:** Tirar dúvidas do usuário sobre tecnologia
-- **Variáveis (entrada/saída):** Texto / Resposta:Voz:Imagem
-- **Relevância/Impacto:** Pessoas com díficuldades de usar um computador, softwares e app tornando o dia-a-dia mais fácil.
+- **Tema:** _Saúde, Finanças, PLN, Visão Computacional, Séries Temporais, etc._
+- **Problema (pergunta mensurável):** _O que queremos prever/classificar?_
+- **Objetivo do modelo:** _Ex.: classificar imagens em saudável vs. pneumonia_
+- **Variáveis (entrada/saída):** _Ex.: pixels (X), rótulo (y)_
+- **Relevância/Impacto:** _Por que é útil? Quem se beneficia?_
 
 ## 4) Dataset
 - **Fonte e link:** _Kaggle/UCI/Hugging Face/Google Dataset Search_
