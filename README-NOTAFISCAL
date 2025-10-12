@@ -40,17 +40,21 @@ Alvo (target): coluna/arquivo de rótulos
 Balanceamento: Classes balanceadas? Se não, como lidar? (SMOTE, pesos, etc.)
 Como será carregado: Link direto/Download local/Drive/HF Datasets
 
-5) Estratégia Inicial
-Baseline ML: Ex.: Regressão Logística/Decision Tree com features simples
-Modelo ML principal: Ex.: Random Forest, SVM, XGBoost (justifique)
-Deep Learning: Ex.: MLP/CNN/RNN conforme tipo de dado (justifique)
-Métricas principais: Accuracy, F1, AUC-ROC, MAE/MSE, etc., com justificativa
-Critérios de sucesso (meta): Ex.: F1 ≥ 0.85 no conjunto de teste
+5) *Estratégia Inicial*
+   Baseline ML: *Regressão Logística* para prever campos básicos a partir de textos simples (valores, datas).
+   Modelo ML principal: *Random Forest* — escolhido por lidar bem com dados tabulares e mistura de variáveis categóricas e numéricas, oferecendo interpretabilidade inicial.
+   Deep Learning: *CNN + OCR (Tesseract ou modelo pré-treinado)* para leitura e extração de informações das notas em imagem; 
+   justifica-se por ser o tipo de rede mais eficiente em reconhecimento visual de padrões textuais.
+   Métricas principais: *Accuracy* e *F1-score*, pois o foco é avaliar a precisão na extração/classificação dos campos.
+   Critérios de sucesso (meta): *F1 ≥ 0.85* no conjunto de teste.
 
-6) Riscos e Considerações Éticas
-Viés nos dados: Classes desbalanceadas? Representatividade?
-Privacidade/LGPD: Contém dados pessoais? Quais cuidados?
-Limitações conhecidas: Ex.: tamanho do dataset, ruído, generalização
+---
+
+6) *Riscos e Considerações Éticas*
+   Viés nos dados: O dataset pode conter notas de apenas algumas regiões ou formatos, o que pode prejudicar a *generalização* do modelo.
+   Privacidade/LGPD: As notas podem conter *dados pessoais e empresariais sensíveis; portanto, será usada apenas base pública, e qualquer dado real será **anonimizado*.
+   Limitações conhecidas: Dataset relativamente pequeno, com possíveis ruídos de OCR, e dificuldade em generalizar para layouts muito diferentes.
+
 
 7) Cronograma (alto nível)
 Aula 01: Problema + Dataset ✅
@@ -78,11 +82,10 @@ Aula 05: Avaliação final + Deploy + Apresentação
 └── README.md           # este arquivo
 
 9) Como rodar (Local ou Colab)
-Colab: Abra notebooks/ e crie um notebook. Use o link do dataset para carregar os dados.
-Local (opcional):
-python -m venv .venv
-source .venv/bin/activate  # (Windows: .venv\Scripts\activate)
-pip install -r requirements.txt
+
+LOCAL: Instalar Dependências: *npm install*
+       Copie e Cole o Local Do arquivo: *cd C:\local\do\arquivo\CarScan*
+       Rode o Projeto: *npm run dev*
 
 10) Status
  Tema definido
