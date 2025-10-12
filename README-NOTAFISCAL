@@ -83,9 +83,9 @@ Aula 05: Avaliação final + Deploy + Apresentação
 
 9) Como rodar (Local ou Colab)
 
-LOCAL: Instalar Dependências: *npm install*
-       Copie e Cole o Local Do arquivo: *cd C:\local\do\arquivo\CarScan*
-       Rode o Projeto: *npm run dev*
+LOCAL: Instalar Dependências: `npm install`
+       Copie e Cole o Local Do arquivo: `cd C:\local\do\arquivo\CarScan`
+       Rode o Projeto: `npm run dev`
 
 10) Status
  Tema definido
