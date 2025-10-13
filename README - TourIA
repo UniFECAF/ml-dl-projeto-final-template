@@ -29,7 +29,7 @@ R: O projeto busca resolver a dificuldade que muitas pessoas têm em planejar vi
 - **Objetivo do modelo:** _Ex.: classificar imagens em saudável vs. pneumonia_
 R: Auxiliar/Planejar viagens, passeios, visitas, com base na preferência do cliente.
 - **Variáveis (entrada/saída):** _Ex.: pixels (X), rótulo (y)_
-R: -
+R: Texto/Resposta
 - **Relevância/Impacto:** _Por que é útil? Quem se beneficia?_
 R:O projeto visa **transformar a experiência de planejamento de viagens**, tornando-a mais acessível, prática e personalizada.
 Além de reduzir o tempo gasto em pesquisas, o chatbot **aumenta a precisão das decisões do usuário**, ajuda a evitar gastos desnecessários e **democratiza o acesso à informação turística de qualidade**, com isso, beneficiando o cliente.
