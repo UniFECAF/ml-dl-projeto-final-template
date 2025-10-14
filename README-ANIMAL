@@ -1,12 +1,12 @@
 1) Identificação do Projeto
-Título do projeto: Ex.: Detecção de Pneumonia em Raios-X
+Título do projeto: Petcare+
 Turma/Disciplina: Ex.: MLDL — 2025.2
 Professor: Rodrigo Moreira
 Grupo (até 5): Nome completo + e-mail/usuário GitHub
-Amanda de Oliveira 1 — @usuario1
-Micaelly de Oliveira — @usuario2
-Icaro Oliveira — @usuario3
-Eduardo — @usuario4
+Amanda de Oliveira 1 — n4ndadroid - amanda.bezerra59249@a.fecaf.com.br
+Micaelly de Oliveira —  micaellyborges - micaelly.borges.78843@a.fecaf.com.br
+Icaro Oliveira — icarolima1311-art - icaro.silva.125799@a.fecaf.com.br
+Eduardo Dias — eduardooou - eduardo.dias.95267@a.fecaf.com.br
 
 
 
@@ -18,11 +18,25 @@ Isso garante um cuidado mais preciso e proativo, otimizando o acompanhamento vet
 
 3) Definição do Problema
 
-Tema: Saúde, Finanças, PLN, Visão Computacional, Séries Temporais, etc.
-Problema (pergunta mensurável): O que queremos prever/classificar?
-Objetivo do modelo: Ex.: classificar imagens em saudável vs. pneumonia
-Variáveis (entrada/saída): Ex.: pixels (X), rótulo (y)
-Relevância/Impacto: Por que é útil? Quem se beneficia?
+Tema: Saúde animal.
+
+Problema (pergunta mensurável): Atualmente, a gestão da saúde dos animais de estimação enfrenta os seguintes desafios:
+Histórico de Saúde Desorganizado: O uso de registros em papel leva a dados espalhados e pouco confiáveis.
+Riscos à Saúde Animal: A desorganização resulta em atrasos na aplicação de vacinas e vermífugos, aumentando o risco de doenças.
+
+Custos Elevados e Ineficiência: A falta de rastreabilidade pode gerar custos com a reaplicação de doses. 
+Além disso, em emergências, veterinários perdem tempo crucial tentando consolidar o histórico do animal.
+
+Objetivo do modelo: Unificação de todos os dados (vacinas, exames, tratamentos) em uma só plataforma.
+Acesso seguro e imediato.
+
+Variáveis (entrada/saída): Texto.
+
+Relevância/Impacto: Visa substituir métodos antiquados e desorganizados, como carteiras de vacinação em papel, 
+por um histórico de saúde 100% digital e centralizado.
+Usuários Primários (B2C): Tutores de animais de estimação que desejam uma forma organizada e proativa de gerenciar a saúde de seus pets.
+Usuários Secundários (B2B): Clínicas veterinárias que buscam otimizar a gestão dos registros de seus pacientes
+e oferecer um serviço de valor agregado a seus clientes.
 
 
 
