@@ -10,11 +10,11 @@
 - **Turma/Disciplina:** _Ex.: MLDL — 2025.2_
 - **Professor:** Rodrigo Moreira
 - **Grupo (até 5):** Nome completo + e-mail/usuário GitHub  
-  - Integrante 1 — @usuario1
-  - Integrante 2 — @usuario2
-  - Integrante 3 — @usuario3
-  - Integrante 4 — @usuario4
-  - Integrante 5 — @usuario5
+  - Integrante 1 — Viviane Santos / vivianesantos1998
+  - Integrante 2 — Mariana Funari / marianafunari04
+  - Integrante 3 — Carolina Santos / santoscarolinac
+  - Integrante 4 — Luan Rodrigues / 
+  - Integrante 5 — Isabel Lais Farias / Lais15
 
 ## 2) Pitch (2–3 linhas)
 > Em poucas frases, diga o que o projeto faz e por que importa.
