@@ -60,7 +60,7 @@ Cada grupo deverá trabalhar colaborativamente neste repositório, documentando 
 
 ---
 
-### 📍 **Aula 22/10 – Modelagem com Machine Learning**
+### 📍 **Aula 29/10 – Modelagem com Machine Learning**
 **Tema:** Aplicação de algoritmos tradicionais de ML
 
 🧠 **Tarefas:**
@@ -78,7 +78,7 @@ Cada grupo deverá trabalhar colaborativamente neste repositório, documentando 
 
 ---
 
-### 📍 **Aula 29/10 – Modelagem com Deep Learning**
+### 📍 **Aula 05/11 – Modelagem com Deep Learning**
 **Tema:** Implementação de redes neurais
 
 🤖 **Tarefas:**
