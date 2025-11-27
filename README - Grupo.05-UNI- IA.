@@ -32,3 +32,13 @@ Para tradução/simplificação: texto alvo (frase traduzida ou simplificada).
 Balanceamento: Classes balanceadas? Se não, como lidar? É comum haver mais exemplos em certos idiomas (como inglês) e menos em outros; isso pode gerar viés.​
 Estratégias: amostragem balanceada, pesos de classe e seleção de subconjuntos com quantidades similares por idioma.
 Como será carregado: Colab: https://colab.research.google.com/drive/1C-5X51sDsJ6CRlTM0W-HTTuYhG2esCjh?usp=sharing
+
+5) Estratégia Inicial
+Baseline ML: Classificador simples de idioma/intenção usando Regressão Logística ou Naive Bayes com features de bag‑of‑words ou TF‑IDF.
+Modelo ML principal: Modelos como Random Forest ou XGBoost para tarefas de classificação estrutural (por exemplo, intenção ou categoria de mensagem), pois costumam ter bom desempenho em dados tabulares/textuais vetorizados e são relativamente interpretáveis.
+Deep Learning: Uso de modelos baseados em transformers pré‑treinados para tradução e entendimento de texto, finetunados para o contexto do UNI-IA (por exemplo, um modelo de tradução ou de classificação multilíngue).​
+Justificativa: transformers têm desempenho de estado da arte em tradução automática e NLP multilíngue, fundamentais para comunicação em vários idiomas.
+Métricas principais: Para classificação de idioma/intenção: Accuracy e F1-score, para equilibrar desempenho geral e por classe.​
+Para tradução/simplificação: métricas de similaridade de texto como BLEU ou outras métricas adequadas, avaliando se a mensagem mantém o sentido original.
+Critérios de sucesso (meta): F1 ≥ 0.85 na tarefa de classificação de idioma/intenção, no conjunto de teste.​
+Métrica de tradução (por exemplo, BLEU) em nível considerado aceitável na literatura para um modelo de base ajustado, mantendo compreensibilidade nas frases geradas.
