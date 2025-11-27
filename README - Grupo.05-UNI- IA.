@@ -20,3 +20,15 @@ Objetivo do modelo: Ex.: Apoiar a comunicação entre essas pessoas, detectando 
 Variáveis (entrada/saída): Entrada (X): texto digitado, transcrição de áudio, idioma detectado, metadados simples (quem envia, preferências de acessibilidade).
 Saída (y): texto traduzido ou simplificado, rótulo de idioma/intenção, e/ou representação que possa ser usada para síntese de voz ou outros formatos acessíveis.
 Relevância/Impacto: Por que é útil? Quem se beneficia? O modelo ajuda a derrubar barreiras de idioma e acessibilidade, permitindo que mais pessoas participem de conversas em contextos de estudo, trabalho e vida cotidiana; quem se beneficia são especialmente pessoas com deficiência e pessoas que não dominam o mesmo idioma.
+
+4) Dataset
+Fonte e link: https://edeb3e9fafd84668a5.gradio.live
+Descrição resumida: #amostras: de centenas de milhares a milhões de pares de frases, dependendo do dataset escolhido.​
+#features: pelo menos 2 colunas (texto origem, texto destino), podendo incluir idioma, identificador e metadados.
+Tamanho aproximado: Dezenas de MB até vários GB
+Licença: usar apenas datasets com licença aberta (por exemplo, variantes de CC ou licenças explícitas na página do dataset) e registrar a licença escolhida no README.
+Alvo (target): Para classificação: rótulo de idioma ou intenção.​
+Para tradução/simplificação: texto alvo (frase traduzida ou simplificada).
+Balanceamento: Classes balanceadas? Se não, como lidar? É comum haver mais exemplos em certos idiomas (como inglês) e menos em outros; isso pode gerar viés.​
+Estratégias: amostragem balanceada, pesos de classe e seleção de subconjuntos com quantidades similares por idioma.
+Como será carregado: Colab: https://colab.research.google.com/drive/1C-5X51sDsJ6CRlTM0W-HTTuYhG2esCjh?usp=sharing
