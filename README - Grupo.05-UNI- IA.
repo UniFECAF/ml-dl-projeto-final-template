@@ -13,3 +13,10 @@ Integrante 5 — Carolina C dos Santos / @Santoscarolinac
 O software tem como principal objetivo traduzir sinais de Libras (Língua Brasileira de Sinais) para texto ou voz através da captura e análise de vídeos, utilizando técnicas de reconhecimento de gestos e inteligência artificial. Esse tipo de ferramenta pode ser muito útil para inclusão social e acessibilidade, permitindo que pessoas surdas ou com deficiência auditiva se comuniquem facilmente com pessoas que não conhecem a Libras.
 O intuito é entender e responder, o aplicativo terá a alternativa de escrever e através da IA gerar um vídeo com os sinais de libra para entendimento de ambos.
 
+3) Definição do Problema
+Tema: UNI-IA (Unindo Novas Interações)
+Problema (pergunta mensurável): O que queremos prever/classificar? Como um aplicativo com inteligência artificial pode reduzir barreiras de comunicação entre pessoas sem deficiências e pessoas com algum tipo de deficiência, usando texto, voz e vídeo em diferentes idiomas, de forma que ambas consigam se comunicar.
+Objetivo do modelo: Ex.: Apoiar a comunicação entre essas pessoas, detectando idioma e intenção da mensagem e gerando uma saída acessível (texto simplificado, tradução, áudio ou outro formato adequado) para a outra parte.
+Variáveis (entrada/saída): Entrada (X): texto digitado, transcrição de áudio, idioma detectado, metadados simples (quem envia, preferências de acessibilidade).
+Saída (y): texto traduzido ou simplificado, rótulo de idioma/intenção, e/ou representação que possa ser usada para síntese de voz ou outros formatos acessíveis.
+Relevância/Impacto: Por que é útil? Quem se beneficia? O modelo ajuda a derrubar barreiras de idioma e acessibilidade, permitindo que mais pessoas participem de conversas em contextos de estudo, trabalho e vida cotidiana; quem se beneficia são especialmente pessoas com deficiência e pessoas que não dominam o mesmo idioma.
