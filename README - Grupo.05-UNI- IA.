@@ -56,3 +56,21 @@ Aula 02: EDA + preparação de dados (limpeza, análise de idiomas, divisão tre
 Aula 03: Baseline + ML tradicional (modelos simples de classificação).
 Aula 04: DL (rede neural/transformer) + comparação com ML tradicional.
 Aula 05: Avaliação final + deploy (protótipo do aplicativo ou demo web) + apresentação.
+
+8) Estrutura do Repositório
+.
+├── .github/
+│   ├── ISSUE_TEMPLATE/
+│   │   └── aula01.yml
+│   └── PULL_REQUEST_TEMPLATE.md
+├── data/
+│   ├── raw/            # dados brutos (não versionar arquivos grandes)
+│   └── processed/      # dados processados (não versionar arquivos grandes)
+├── docs/
+│   ├── checklist_aula01.md
+│   └── relatorio_template.md  # usaremos na entrega final
+├── notebooks/          # notebooks Colab/Jupyter
+├── src/                # código fonte (funções/utilitários)
+├── .gitignore
+├── LICENSE
+└── README.md           # este arquivo
