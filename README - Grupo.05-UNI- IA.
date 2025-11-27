@@ -58,19 +58,21 @@ Aula 04: DL (rede neural/transformer) + comparação com ML tradicional.
 Aula 05: Avaliação final + deploy (protótipo do aplicativo ou demo web) + apresentação.
 
 8) Estrutura do Repositório
+UNI-IA
 .
-├── .github/
+├── .github/                      # templates de issue e pull request
 │   ├── ISSUE_TEMPLATE/
 │   │   └── aula01.yml
 │   └── PULL_REQUEST_TEMPLATE.md
 ├── data/
-│   ├── raw/            # dados brutos (não versionar arquivos grandes)
-│   └── processed/      # dados processados (não versionar arquivos grandes)
-├── docs/
+│   ├── raw/                      # dados brutos (não versionar arquivos grandes)
+│   └── processed/                # dados processados (não versionar arquivos grandes)
+├── docs/                         # checklist e relatório final do UNI-IA
 │   ├── checklist_aula01.md
-│   └── relatorio_template.md  # usaremos na entrega final
-├── notebooks/          # notebooks Colab/Jupyter
-├── src/                # código fonte (funções/utilitários)
-├── .gitignore
-├── LICENSE
-└── README.md           # este arquivo
+│   └── relatorio_template.md
+├── notebooks/                    # notebooks Colab/Jupyter do projeto UNI-IA
+├── src/                          # código de carregamento de dados, pré-processamento, treino, avaliação e, se houver, backend do UNI-IA
+├── .gitignore                    # regras para ignorar arquivos grandes (datasets, etc.)
+├── LICENSE                       # licença do projeto
+└── README.md                     # descrição do UNI-IA e links dos datasets
+
