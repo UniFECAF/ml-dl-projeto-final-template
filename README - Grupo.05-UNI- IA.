@@ -31,7 +31,7 @@ Alvo (target): Para classificação: rótulo de idioma ou intenção.​
 Para tradução/simplificação: texto alvo (frase traduzida ou simplificada).
 Balanceamento: Classes balanceadas? Se não, como lidar? É comum haver mais exemplos em certos idiomas (como inglês) e menos em outros; isso pode gerar viés.​
 Estratégias: amostragem balanceada, pesos de classe e seleção de subconjuntos com quantidades similares por idioma.
-Como será carregado: Colab: https://colab.research.google.com/drive/1C-5X51sDsJ6CRlTM0W-HTTuYhG2esCjh?usp=sharing
+Como será carregado: Colab: https://colab.research.google.com/drive/1EXNJmLJGSBRqRrtjEFDXg4yGm9fTDF_H?usp=sharing
 
 5) Estratégia Inicial
 Baseline ML: Classificador simples de idioma/intenção usando Regressão Logística ou Naive Bayes com features de bag‑of‑words ou TF‑IDF.
