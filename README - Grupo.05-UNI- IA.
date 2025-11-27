@@ -42,3 +42,17 @@ Métricas principais: Para classificação de idioma/intenção: Accuracy e F1-s
 Para tradução/simplificação: métricas de similaridade de texto como BLEU ou outras métricas adequadas, avaliando se a mensagem mantém o sentido original.
 Critérios de sucesso (meta): F1 ≥ 0.85 na tarefa de classificação de idioma/intenção, no conjunto de teste.​
 Métrica de tradução (por exemplo, BLEU) em nível considerado aceitável na literatura para um modelo de base ajustado, mantendo compreensibilidade nas frases geradas.
+
+6) Riscos e Considerações Éticas
+Viés nos dados: Classes desbalanceadas? Representatividade? Risco de o modelo funcionar melhor para alguns idiomas e perfis de usuários, principalmente porque a maioria dos datasets tem foco em idiomas mais populares.​
+Mitigação: escolher datasets mais diversos, monitorar desempenho por idioma/grupo e documentar limitações.
+Privacidade/LGPD: Contém dados pessoais? Quais cuidados? Em uso real, mensagens podem conter dados pessoais sensíveis; é necessário prever anonimização, criptografia em trânsito e em repouso, e políticas claras de não retenção sem consentimento.
+Limitações conhecidas: Falta de dados específicos para certos tipos de deficiência (por exemplo, dialetos de língua de sinais ou perfis de fala atípicos), o que limita a eficácia para todos os públicos.​
+Risco de mal-entendidos em conversas críticas (saúde, jurídico, etc.), o que reforça que o UNI-IA deve ser usado como apoio, não como substituto de profissionais humanos.
+
+7) Cronograma (alto nível)
+Aula 01: Tema UNI-IA definido, problema e objetivos escritos, candidatos de datasets identificados.
+Aula 02: EDA + preparação de dados (limpeza, análise de idiomas, divisão treino/validação/teste).
+Aula 03: Baseline + ML tradicional (modelos simples de classificação).
+Aula 04: DL (rede neural/transformer) + comparação com ML tradicional.
+Aula 05: Avaliação final + deploy (protótipo do aplicativo ou demo web) + apresentação.
